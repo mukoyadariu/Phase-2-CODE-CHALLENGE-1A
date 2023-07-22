@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+Mini Web App for Bank Transactions 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Mini Web App for Bank Transactions! In this project, you'll be building a React application that will allow you to practice and demonstrate your skills in working with components, props, states, events, and data fetching in React. The main goal of this project is to create a user-friendly web app that displays a list of your recent bank transactions and allows you to perform various actions on them, such as filtering, adding, and deleting transactions.
+Project Overview
 
-## Available Scripts
+This project aims to create a React web application that interacts with a local JSON DB server to fetch and display bank transaction data. Before you start coding, planning, and ideating your app is essential, to decide on the user interface and how the information will be presented on the page. Could you take some time to think through the design and structure to ensure a smooth development process?
+Requirements
 
-In the project directory, you can run:
+Before diving into the project, please make sure to meet the following requirements:
 
-### `npm start`
+    Have a well-written README file to document your project and guide others on how to run and use your application effectively.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Fetch data from a local server running the JSON DB server. A sample database file (db.json) is provided for you to use as your server's DB.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project Setup & Pre-requisite Data
 
-### `npm test`
+Follow these steps to set up your project and ensure you have the necessary data for your server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Create a new project directory where you'll store all your project files.
 
-### `npm run build`
+    In the project directory, create a db.json file using the provided data or modify it as needed for your application's transactions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    To run the backend server, execute the following command in your terminal: json-server --watch db.json
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Test your server by visiting this route in your browser: http://localhost:8001/transactions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project Setup
 
-### `npm run eject`
+Now that you have your plan and data in place, let's set up your project environment:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Create a new project folder in your preferred development environment.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Create a new GitHub repository for your project (please make it private to protect your work).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Add your TM (Teaching Mentor) as a contributor to the project. This will enable them to evaluate your project for grading purposes. Rest assured, they won't steal your code!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Regularly commit your work to the repository to track your progress throughout the development process.
 
-## Learn More
+Project Guidelines
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Adhering to the following guidelines will help ensure a well-structured and functional project:
+Core Deliverables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As a user, the following functionalities should be available to you:
 
-### Code Splitting
+    View a table of all transactions, displaying essential details like date, description, and amount.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Fill out and submit a form to add a new transaction. This will add the new transaction to the table. Note that the new transaction doesn't have to be persisted to the backend; local changes are sufficient.
 
-### Analyzing the Bundle Size
+    Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be displayed in the transactions table.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bonus Deliverables
 
-### Making a Progressive Web App
+The following bonus deliverables are optional, but if you want an extra challenge, give them a try! Completing bonus deliverables won't impact your score but can be a valuable learning experience:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Sort transactions alphabetically by category or description. This feature will allow users to arrange transactions in ascending or descending order based on their preferences.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Implement the ability to delete a transaction. When a user clicks on the delete option, the transaction should be removed from the table.
