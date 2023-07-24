@@ -1,9 +1,9 @@
 Mini Web App for Bank Transactions 
 
-Welcome to the Mini Web App for Bank Transactions! In this project, you'll be building a React application that will allow you to practice and demonstrate your skills in working with components, props, state, events, and data fetching in React. The main goal of this project is to create a user-friendly web app that displays a list of your recent bank transactions and allows you to perform various actions on them, such as filtering, adding, and deleting transactions.
+Welcome to the Mini Web App for Bank Transactions! In this project, I'll be building a React application that will  demonstrate my skills in working with components, props, states, events, and data fetching in React. The main goal of this project is to create a user-friendly web app that displays a list of your recent bank transactions and allows you to perform various actions on them, such as filtering, adding, and deleting transactions.
 Project Overview
 
-This project aims to create a React web application that interacts with a local JSON DB server to fetch and display bank transaction data. Before you start coding, it's essential to plan and ideate your app, deciding on the user interface and how information will be presented on the page. Take some time to think through the design and structure to ensure a smooth development process.
+This project aims to create a React web application that interacts with a local JSON DB server to fetch and display bank transaction data. Before you start coding, planning, and ideating your app is essential, to decide on the user interface and how the information will be presented on the page. Could you take some time to think through the design and structure to ensure a smooth development process?
 Requirements
 
 Before diving into the project, please make sure to meet the following requirements:
@@ -49,10 +49,3 @@ As a user, the following functionalities should be available to you:
 
     Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be displayed in the transactions table.
 
-Bonus Deliverables
-
-The following bonus deliverables are optional, but if you want an extra challenge, give them a try! Completing bonus deliverables won't impact your score but can be a valuable learning experience:
-
-    Sort transactions alphabetically by category or description. This feature will allow users to arrange transactions in ascending or descending order based on their preferences.
-
-    Implement the ability to delete a transaction. When a user clicks on the delete option, the transaction should be removed from the table.
